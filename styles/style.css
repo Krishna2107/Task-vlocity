@@ -9,11 +9,12 @@
     font-family: "FontAwesome";
     font-display: auto;
     src: url("/assets/fonts/fontawesome-webfont.ttf") format("truetype"),
-      url("/assets/fonts/fontawesome-webfont.woff") format("woff"),
-      url("/assets/fonts/fontawesome-webfont.svg") format("svg");
+        url("/assets/fonts/fontawesome-webfont.woff") format("woff"),
+        url("/assets/fonts/fontawesome-webfont.svg") format("svg");
     font-weight: normal;
     font-style: normal;
 }
+
 body {
     background-color: #fff;
     color: #000;
@@ -26,17 +27,20 @@ body {
 
 /* gobal-color */
 .text-blue {
-    color:#2AB7F6;
+    color: #2AB7F6;
 }
+
 .text-white {
     color: #fff;
 }
+
 .breadcrumb {
     padding: 0;
     margin-bottom: 0;
     background-color: transparent;
     text-transform: uppercase;
 }
+
 .breadcrumb a,
 .breadcrumb-item.active,
 .breadcrumb-item+.breadcrumb-item::before {
@@ -44,9 +48,11 @@ body {
     font-weight: 400;
     letter-spacing: 0;
 }
+
 .breadcrumb-item+.breadcrumb-item::before {
     content: "|";
 }
+
 .breadcrumb-item {
     font-size: 12px;
 }
@@ -55,31 +61,37 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
 /* about-us */
 .hero-banner-about {
-    background: rgba(1,149,248,1);
-    background: -moz-linear-gradient(left, rgba(1,149,248,1) 0%, rgba(21,82,187,1) 23%, rgba(42,7,119,1) 37%, rgba(45,2,115,1) 63%, rgba(35,39,165,1) 83%, rgba(25,81,222,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(1,149,248,1)), color-stop(23%, rgba(21,82,187,1)), color-stop(37%, rgba(42,7,119,1)), color-stop(63%, rgba(45,2,115,1)), color-stop(83%, rgba(35,39,165,1)), color-stop(100%, rgba(25,81,222,1)));
-    background: -webkit-linear-gradient(left, rgba(1,149,248,1) 0%, rgba(21,82,187,1) 23%, rgba(42,7,119,1) 37%, rgba(45,2,115,1) 63%, rgba(35,39,165,1) 83%, rgba(25,81,222,1) 100%);
-    background: -o-linear-gradient(left, rgba(1,149,248,1) 0%, rgba(21,82,187,1) 23%, rgba(42,7,119,1) 37%, rgba(45,2,115,1) 63%, rgba(35,39,165,1) 83%, rgba(25,81,222,1) 100%);
-    background: -ms-linear-gradient(left, rgba(1,149,248,1) 0%, rgba(21,82,187,1) 23%, rgba(42,7,119,1) 37%, rgba(45,2,115,1) 63%, rgba(35,39,165,1) 83%, rgba(25,81,222,1) 100%);
-    background: linear-gradient(to right, rgba(1,149,248,1) 0%, rgba(21,82,187,1) 23%, rgba(42,7,119,1) 37%, rgba(45,2,115,1) 63%, rgba(35,39,165,1) 83%, rgba(25,81,222,1) 100%);
+    background: rgba(1, 149, 248, 1);
+    background: -moz-linear-gradient(left, rgba(1, 149, 248, 1) 0%, rgba(21, 82, 187, 1) 23%, rgba(42, 7, 119, 1) 37%, rgba(45, 2, 115, 1) 63%, rgba(35, 39, 165, 1) 83%, rgba(25, 81, 222, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(1, 149, 248, 1)), color-stop(23%, rgba(21, 82, 187, 1)), color-stop(37%, rgba(42, 7, 119, 1)), color-stop(63%, rgba(45, 2, 115, 1)), color-stop(83%, rgba(35, 39, 165, 1)), color-stop(100%, rgba(25, 81, 222, 1)));
+    background: -webkit-linear-gradient(left, rgba(1, 149, 248, 1) 0%, rgba(21, 82, 187, 1) 23%, rgba(42, 7, 119, 1) 37%, rgba(45, 2, 115, 1) 63%, rgba(35, 39, 165, 1) 83%, rgba(25, 81, 222, 1) 100%);
+    background: -o-linear-gradient(left, rgba(1, 149, 248, 1) 0%, rgba(21, 82, 187, 1) 23%, rgba(42, 7, 119, 1) 37%, rgba(45, 2, 115, 1) 63%, rgba(35, 39, 165, 1) 83%, rgba(25, 81, 222, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(1, 149, 248, 1) 0%, rgba(21, 82, 187, 1) 23%, rgba(42, 7, 119, 1) 37%, rgba(45, 2, 115, 1) 63%, rgba(35, 39, 165, 1) 83%, rgba(25, 81, 222, 1) 100%);
+    background: linear-gradient(to right, rgba(1, 149, 248, 1) 0%, rgba(21, 82, 187, 1) 23%, rgba(42, 7, 119, 1) 37%, rgba(45, 2, 115, 1) 63%, rgba(35, 39, 165, 1) 83%, rgba(25, 81, 222, 1) 100%);
 }
+
 .hero-banner-about {
     padding: 3% 0 2%;
 }
+
 .hero-banner-about h1 {
     font-size: 30px;
 }
+
 .hero-banner-about h4 {
     width: 600px;
     font-size: 34px;
     font-weight: bolder;
     padding-top: 8%;
 }
+
 .hero-banner-about small {
     font-size: 14px;
 }
+
 .about-us h2:after {
     border-bottom: 2px solid #2AB7F6;
     display: block;
