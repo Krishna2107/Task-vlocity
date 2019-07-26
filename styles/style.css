@@ -24,7 +24,42 @@ body {
     overflow-x: hidden;
     max-width: 100%;
 }
+.logo {
+    height: 40px;
+}
+.sva-header .navbar {
+    width: 100%;float: left;
+}
+.sva-header .navbar .navbar-nav .nav-item {
+   position: relative;
+   margin-right: 10px;
+}
+.sva-header .navbar .navbar-nav .nav-item:last-child {
+    margin-right: 0px;
+ }
+.sva-header .navbar .navbar-nav .nav-item::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #2AB7F6;
+    bottom: -14px;
+    opacity: 0;
 
+ }
+ .sva-header .navbar .navbar-nav .nav-item.active::before {
+     opacity: 1;
+ }
+.sva-header .navbar .navbar-nav .nav-item .nav-link {
+    color: #000;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+ }
+ .sva-header .navbar .navbar-nav .nav-item.active .nav-link {
+    color: #2AB7F6;
+    
+}
 /* gobal-color */
 .text-blue {
     color: #2AB7F6;
